@@ -13,7 +13,7 @@
 # PARTICULAR PURPOSE.
 
 
-VPATH = /Users/Hironori/app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/doc
+VPATH = /Users/Hironori/work/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/doc
 am__is_gnu_make = { \
   if test -z '$(MAKELEVEL)'; then \
     false; \
@@ -202,16 +202,16 @@ am__uninstall_files_from_dir = { \
 am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
 am__DIST_COMMON = $(srcdir)/Makefile.in mdate-sh texinfo.tex
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} /Users/Hironori/app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/missing aclocal-1.15
+ACLOCAL = ${SHELL} /Users/Hironori/work/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/missing aclocal-1.15
 ALLOCA = 
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 AM_LTLDFLAGS = 
 AM_RUNTESTFLAGS = 
 AR = ar
-AUTOCONF = ${SHELL} /Users/Hironori/app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/missing autoconf
-AUTOHEADER = ${SHELL} /Users/Hironori/app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/missing autoheader
-AUTOMAKE = ${SHELL} /Users/Hironori/app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/missing automake-1.15
+AUTOCONF = ${SHELL} /Users/Hironori/work/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/missing autoconf
+AUTOHEADER = ${SHELL} /Users/Hironori/work/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/missing autoheader
+AUTOMAKE = ${SHELL} /Users/Hironori/work/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/missing automake-1.15
 AWK = awk
 CC =  xcrun clang
 CCAS =  xcrun clang
@@ -256,9 +256,9 @@ LN_S = ln -s
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
 MAINT = #
-MAKEINFO = ${SHELL} /Users/Hironori/app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/missing makeinfo
+MAKEINFO = ${SHELL} /Users/Hironori/work/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/missing makeinfo
 MANIFEST_TOOL = :
-MKDIR_P = /Users/Hironori/app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/install-sh -c -d
+MKDIR_P = /Users/Hironori/work/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/install-sh -c -d
 NM = nm
 NMEDIT = nmedit
 OBJDUMP = objdump
@@ -285,10 +285,10 @@ TARGET = X86_64
 TARGETDIR = x86
 TARGET_OBJ =  src/x86/ffi64.lo src/x86/unix64.lo src/x86/ffiw64.lo src/x86/win64.lo
 VERSION = 3.99999
-abs_builddir = /Users/Hironori/app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi-x86_64/doc
-abs_srcdir = /Users/Hironori/app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/doc
-abs_top_builddir = /Users/Hironori/app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi-x86_64
-abs_top_srcdir = /Users/Hironori/app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi
+abs_builddir = /Users/Hironori/work/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi-x86_64/doc
+abs_srcdir = /Users/Hironori/work/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/doc
+abs_top_builddir = /Users/Hironori/work/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi-x86_64
+abs_top_srcdir = /Users/Hironori/work/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi
 ac_ct_AR = ar
 ac_ct_CC = 
 ac_ct_CXX = g++
@@ -319,7 +319,7 @@ host_vendor = apple
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /Users/Hironori/app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/install-sh
+install_sh = ${SHELL} /Users/Hironori/work/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -334,7 +334,7 @@ psdir = ${docdir}
 runstatedir = ${localstatedir}/run
 sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
-srcdir = /Users/Hironori/app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/doc
+srcdir = /Users/Hironori/work/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/doc
 sys_symbol_underscore = yes
 sysconfdir = ${prefix}/etc
 target = x86_64-apple-darwin
@@ -346,7 +346,7 @@ toolexecdir = ${exec_prefix}/lib/gcc-lib/$(target_alias)
 toolexeclibdir = ${exec_prefix}/lib
 top_build_prefix = ../
 top_builddir = ..
-top_srcdir = /Users/Hironori/app/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi
+top_srcdir = /Users/Hironori/work/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi
 info_TEXINFOS = libffi.texi
 all: all-am
 
